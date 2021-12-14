@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #ffb727;
+  color: #27a1ff;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -555,7 +555,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #ffb727;
+  background-color: #279aff;
 }
 
 /*--------------------------------------------------------------
@@ -579,7 +579,7 @@ section {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffb727;
+  color: #279aff;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -1019,8 +1019,8 @@ section {
 }
 .contact .social-links a:hover {
   color: #fff;
-  border-color: #ffb727;
-  background: #ffb727;
+  border-color: #279aff;
+  background: #279aff;
 }
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -1085,7 +1085,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #ffb727;
+  background: #279aff;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1157,7 +1157,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ffb727;
+  background: #279aff;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
