@@ -176,12 +176,12 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;
+  padding-left: calc(100vw - 75px);
 }
 
 @media (max-width: 991px) {
@@ -214,7 +214,6 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
@@ -457,6 +456,7 @@ section {
 /*--------------------------------------------------------------
 # About Me
 --------------------------------------------------------------*/
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -763,20 +763,25 @@ section {
   text-transform: uppercase;
   color: #444444;
   transition: all 0.3s ease-in-out;
+  border-radius: 25px;
   border: 2px solid #fff;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #f3a200;
   border-color: #27a1ff;
+  border-radius: 25px;
 }
 .portfolio .portfolio-item {
+  border-radius: 25px;
   margin-bottom: 30px;
 }
 .portfolio .portfolio-item .portfolio-img {
+  border-radius: 25px;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-img img {
-  transition: all 0.8s ease-in-out;
+
+  border-radius: 25px;
 }
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
@@ -788,6 +793,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 15px;
+  border-radius: 25px;
 }
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
@@ -795,6 +801,7 @@ section {
   font-weight: 600;
   color: #fff;
   margin-bottom: 0px;
+  border-radius: 25px;
 }
 .portfolio .portfolio-item .portfolio-info p {
   color: rgba(255, 255, 255, 0.8);
@@ -977,6 +984,7 @@ section {
 # Contact Me
 --------------------------------------------------------------*/
 .contact .info-box {
+  border-radius: 25px;
   color: #444444;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -987,7 +995,7 @@ section {
   color: #27a1ff;
   border-radius: 50%;
   padding: 15px;
-  background: #fff6e4;
+  background: #e3f8ff;
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -1023,6 +1031,7 @@ section {
   background: #279aff;
 }
 .contact .php-email-form {
+  border-radius: 25px;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 27px;
 }
