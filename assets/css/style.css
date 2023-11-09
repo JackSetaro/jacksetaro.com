@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -983,6 +983,20 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* This makes the container take the full viewport height */
+}
+
+/* This ensures that the column doesn't stretch to full width on larger screens */
+@media (min-width: 992px) {
+  .centered-content .col-lg-6 {
+    max-width: 50%;
+  }
+}
+
 .contact .info-box {
   border-radius: 25px;
   color: #444444;
